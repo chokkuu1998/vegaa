@@ -1,9 +1,19 @@
-mm,nn=map(int,input().split())
+m,n=map(int,input().split())
+
+
 space=input()
-aa=list(map(int,input().split()))
-bb=list(map(int,input().split()))
-cc=[]
-for i in range(len(bb)):
-  aa.append(bb[i])
-  cc.append(max(aa))
-print(*c,sep=' ')
+
+a=list(map(int,input().split()))
+
+b=list(map(int,input().split()))
+
+c=[]
+
+for i in range(len(b)):
+
+  a.append(b[i])
+  
+  
+  c.append(max(a))
+
+  print(*c,sep=' ')
